@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container-fluid{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+
+.modal-header .A{
+    border: none;
+    margin-left: 200px;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+    color: aliceblue;
+    font-weight: 700px;
+    font-size: 1.3rem;
+}
+
+
+.modal-header h3 {
+color: blue;
+font-family: cursive;
+}
+
+
+
+.modal-body input{
+width: 50%;
+height: 40px;
+border-radius: 10px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin: 10px;
+color: blue;
+font-weight: 700;
+border-color: lightgray;
+}
+
+
+
+.body-content{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin-left: 10px;
+}
+
+
+
+.operators button{
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
